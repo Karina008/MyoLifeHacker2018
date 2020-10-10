@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BackgroundColor">
+
+
+    <LinearLayout
+        android:id="@+id/scanner_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="120dp">
+            <ListView android:id="@+id/listView1"
+                android:layout_width="match_parent"
+                android:layout_height="350dp" />
+
+
+    </LinearLayout>
+    <Button
+        
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="SCAN"
+        android:textColor="@color/FontColor"
+        android:id="@+id/button"
+        android:onClick="onClickScan"
+        android:drawablePadding="-60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="55dp"
+        android:background="@drawable/imgbtn_states2"
+       />
+
+</RelativeLayout>
